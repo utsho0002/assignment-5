@@ -233,6 +233,7 @@ getId('railway').addEventListener('click',function(event){
 getId('clear').addEventListener('click',function(event){
  let parent = getId('history-parent');
     parent.innerHTML = ``; 
+     arr.length = 0; 
 })
 
 
